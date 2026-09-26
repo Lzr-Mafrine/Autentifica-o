@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { UserPlus, User, LockKeyhole } from "lucide-react";
-import { cadastrar } from "../services/api";
+import { cadastrar } from "./services/api";
 
 export default function Cadastro() {
   const [usuario, setUsuario] = useState("");
