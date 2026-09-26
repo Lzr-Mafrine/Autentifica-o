@@ -53,6 +53,7 @@ export default function Login({ setIsAuth, setUsuarioLogado }) {
             <div className="input-wrap">
               <User size={18} />
               <input
+                type="password"
                 placeholder="Digite sua senha"
                 value={senha}
                 onChange={(e) => setSenha(e.target.value)}
